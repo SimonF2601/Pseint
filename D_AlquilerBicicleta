@@ -6,10 +6,10 @@ Algoritmo AlquilerBicicleta
 	Si min>=100 Entonces
 		cargo <- 7*100
 		Si min>1440 Entonces
-			cargo <- cargo +(50*1340)+96000
+			cargo <- cargo +(57*1340)+96000
 		SiNo
 			min <- min-100
-			cargo <- cargo + (50*min)
+			cargo <- cargo + (57*min)
 		FinSi
 	SiNo
 		cargo <- 7*min
