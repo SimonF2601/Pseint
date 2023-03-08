@@ -2,7 +2,12 @@ Algoritmo Radianes_A_Grados
 	Definir rad Como Real	
 	// Solicitar datos al usuario
 	Escribir "Ingresar la cantidad de radianes (Coeficiente de Pi)"
-	Leer rad
+	Esperar 2 Segundos	
+	Escribir "Ingresar numerador del coeficiente"
+	leer n
+	Escribir "Ingresar denominador del coeficinetes"
+	leer d
+	rad = n/d
 	grados = rad*180
-	Escribir rad, " radianes son ", grados, "grados"
+	Escribir  rad ," radianes son " , grados, " grados"
 FinAlgoritmo
