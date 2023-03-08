@@ -1,0 +1,10 @@
+Algoritmo NumeroPar_Impar
+	Escribir 'Ingresar numero a evaluar'
+	Leer num
+	desicion <- (num) MOD (2)
+	Si desicion==0 Entonces
+		Escribir "El numero ",num," es par"
+	SiNo
+		Escribir "El numero ",num, " es impar" 
+	FinSi
+FinAlgoritmo

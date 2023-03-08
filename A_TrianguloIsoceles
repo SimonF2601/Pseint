@@ -1,0 +1,20 @@
+Algoritmo TrianguloIsoceles
+	// Definir tipo de variables
+	Definir a,b Como Entero
+	Definir p,h,va Como Real
+	// Introducir y pedir datos al usuario
+	Escribir "Este,algoritmo,tiene como objetivo calcular la altura, el perimetro y el area de un triangulo isoceles "
+	Escribir "Ingresa el valor de los dos lados iguales del triangulo"
+	// Leer datos ingresados
+	Leer a
+	Escribir "Ingresar el valor del otro lado del triangulo"
+	Leer b
+	// Procesos del algoritmo
+	p <- 2*a+b
+	h <-raiz((a)*(a)-(b/2)*(b/2))
+	va<- (b*h)/2
+	Escribir "El perimetro del triangulo es: ",p
+	Escribir "La altura del triangulo es: ",h
+	Escribir "El area del triangulo es: ",va
+	
+FinAlgoritmo

@@ -1,0 +1,18 @@
+Algoritmo AlquilerBicicleta
+	cargo <- 0
+	Escribir "Ingresar en minutos el tiempo que alquilo la bicicleta"
+	Leer min
+	fm <- min
+	Si min>=100 Entonces
+		cargo <- 7*100
+		Si min>1440 Entonces
+			cargo <- cargo +(50*1340)+96000
+		SiNo
+			min <- min-100
+			cargo <- cargo + (50*min)
+		FinSi
+	SiNo
+		cargo <- 7*min
+	FinSi
+	Escribir "Su tiempo fue de ", fm, " minutos.Y su cobro es de ", cargo
+FinAlgoritmo

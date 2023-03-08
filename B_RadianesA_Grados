@@ -1,0 +1,8 @@
+Algoritmo Radianes_A_Grados
+	Definir rad Como Real	
+	// Solicitar datos al usuario
+	Escribir "Ingresar la cantidad de radianes (Coeficiente de Pi)"
+	Leer rad
+	grados = rad*180
+	Escribir rad, " radianes son ", grados, "grados"
+FinAlgoritmo

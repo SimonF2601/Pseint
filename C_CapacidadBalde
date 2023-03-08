@@ -1,0 +1,12 @@
+Algoritmo LlenadoBalde
+	// Pedir los datos al usuario
+	Escribir 'Ingresar el radio del balde a llenar'
+	// Leer datos ingresados 
+	Leer r
+	Escribir 'Ingresar altura del balde a llenar'
+	Leer h
+	// Procesos
+	v <- PI*r*r*h
+	// Mostrar los resultados
+	Escribir 'La capacidad del balde es de ',v
+FinAlgoritmo
