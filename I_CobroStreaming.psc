@@ -33,7 +33,6 @@ Algoritmo I_CobroStreaming
 	h1=ConvertirANumero(horas1)
 	m1=ConvertirANumero(minutos1)
 	s1=ConvertirANumero(seg1)
-	Escribir minutos1
 	
 	horaf= h1-h
 	minutosf= m1-m
