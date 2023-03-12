@@ -39,10 +39,6 @@ Algoritmo I_CobroStreaming
 	minutosf= m1-m
 	segf= s1-s
 	
-	Escribir "resultados ",horaf
-	Escribir minf, " ", (02-37)
-	Escribir segf
-	
 	horaf= horaf*3600
 	minutosf= minutosf*60
 	segf= segf + minutosf + horaf
