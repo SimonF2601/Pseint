@@ -7,7 +7,7 @@ Algoritmo G_Bachiller
 	Escribir 'Ingresar c'
 	Leer c
 	det <- (b^2)-(4*a*c)
-	Escribir det
+	//Escribir det
 	Si det>=0 Entonces
 		sol1 <- (-(b)+(raiz(det)))/(2*a)
 		sol2 <- (-(b)-(raiz(det)))/(2*a)
